@@ -1,16 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="737dc756-553b-457c-b867-c45839272115" name="Default Changelist" comment="update code">
+      <change afterPath="$PROJECT_DIR$/starter/backend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/models/create-todos-req.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/models/update-todos-req.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/src/businessLogic/todos.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/src/dataLayer/todosAccess.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/backend/src/fileStorage/attachmentUtils.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/aws-node-http-api-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/aws-node-http-api-project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/aws-node-http-api-project/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/aws-node-http-api-project/serverless.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/client/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/serverless.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/auth/utils.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/auth/utils.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/auth/auth0Authorizer.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/auth/auth0Authorizer.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/http/createTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/http/createTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/http/deleteTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/http/deleteTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/http/generateUploadUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/http/generateUploadUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/http/getTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/http/getTodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/http/updateTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/http/updateTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/lambda/utils.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/lambda/utils.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/backend/src/utils/logger.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/starter/backend/src/utils/logger.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/src/api/todos-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/src/api/todos-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/src/components/EditTodo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/src/components/EditTodo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/src/components/NewTodoInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/src/components/NewTodoInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/client/src/components/Todos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/starter/client/src/components/Todos.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2pZfldIjNiFhouXu2fDQmQtUU4F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/starter" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\anh linh\cloud developer\Deploy-Application-with-AWS-Lambda\starter" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="env.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/starter/backend/env.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/starter/backend" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.env.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="737dc756-553b-457c-b867-c45839272115" name="Default Changelist" comment="" />
+      <created>1732978675625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732978675625</updated>
+      <workItem from="1732978678758" duration="10225000" />
+    </task>
+    <task id="LOCAL-00001" summary="update code">
+      <created>1732978867842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732978867842</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update code">
+      <created>1732978904410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732978904410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code" />
   </component>
 </project>
